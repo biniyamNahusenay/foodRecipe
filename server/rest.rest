@@ -1,0 +1,14 @@
+GET http://localhost:5000/recipe
+
+###
+POST http://localhost:5000/recipe
+Content-Type: application/json
+
+{
+    "name":"Steak",
+    "ingredients":["meat","salt","water"],
+    "instructions":"heat it until the Steak is good",
+    "imageUrl":"https://www.allrecipes.com/recipe/10909/annas-chocolate-chip-cookies/",
+    "cookingTime":30,
+    "userOwner":"656ef95ca3646186f65e569c"
+}
